@@ -4,7 +4,7 @@
 
 The machine learning technology provided by this website enables users to upload pictures of cherry leaves and determine if they are in a healthy state or if they have been affected by powdery mildew.
 
-[Live application can be found here](#)
+[Live application can be found here](https://cherry-leaves-detection-2e6e2adec01d.herokuapp.com/)
 
 # Planning Phase
 
@@ -173,7 +173,10 @@ The developed dashboard is a multi-page streamlit application that incorporates 
 
 ## Bugs and Fixes
 
-- A------------------------------------------------aaa--------
+**Bug: Path Problem**
+For some reason function didnt work with the proper name of the image file that installed in the ipynb file. Solution beed pretty easy, I just rename it to the same name once more time and it is fixed.
+
+![](docs/images/bug.png)
 
 ## Deployment
 
