@@ -93,7 +93,7 @@ The model achieved an accuracy of over 97% on the test dataset, meeting the desi
 
 ### Dashboard Wireframe
 
-Dashboard wireframe was created using wireframeCC. The wireframe is in pdf format and can be viewed [here](docs/project_wireframe.pdf)
+Dashboard wireframe was created using wireframeCC. The wireframe is in pdf format and can be viewed [here](docs/images/project_wireframe.pdf)
 
 ### Page 1: Quick Project Summary
 
@@ -108,6 +108,70 @@ Dashboard wireframe was created using wireframeCC. The wireframe is in pdf forma
   - Business requirements
     - The client seeks to perform a research study aimed at visually distinguishing between a healthy cherry leaf and a cherry leaf affected by powdery mildew.
     - The client has a keen interest in predicting whether a cherry tree is in a healthy state or affected by powdery mildew.
+
+### Page 2: Cherry leaf visualizer
+
+- It will answer business requirement 1
+  - This document presents the outcomes obtained from the study focused on visually distinguishing between a healthy cherry leaf and a cherry leaf affected by powdery mildew.
+  - Checkbox 1 - Difference between average and variability image
+  - Checkbox 2 - Differences between Healthy and Powdery Mildew Cherry Leaves
+  - Checkbox 3 - Image Montage
+
+### Page 3: Mildew detector
+
+- It will answer business requirement 2
+  - Link to download a set of cherry leaf images for live prediction
+  - file upload widget to upload one or more images for prediction
+  - Display image and prediction statement indicating whether or not a cherry leaf conatins mildew
+  - Display table with image name and prediction result
+  - Download button to download table
+
+### Page 4: Project Hypothesis and Validation
+
+- Display each project hypothesis and validation
+
+### Page 5: ML performance metrics
+
+- A technical page displaying the model performance
+
+## **Features**
+
+The application is created utilizing the streamlit library and features a sidebar menu containing five navigation links.
+
+**Navigation**
+
+The developed dashboard is a multi-page streamlit application that incorporates sidebar navigation with checkbox links. These navigation links enable convenient access to the five listed pages:
+
+- **Page 1: Quick Project Summary**
+  On this page, you will find a concise summary of the project requirements and an overview of the dataset.
+  ![](docs/images/page_1_summary.png)
+
+- **Page 2: Cherry leaf visualizer**
+  This page provides a concise summary outlining the project requirements and an overview of the dataset.
+  ![](docs/images/page_2_visualizer_difference.png)
+
+![](docs/images/page_2_visualizer_diff.png)
+
+- **Page 3: Mildew Detector**
+  This provides the interface for the user to upload test samples and predict wether or not the samples provided are healthy or infested with powdery leaf mildew. It features a _Browse file_ button which user can use to upload one or more image files. Prediction is not made until the user clicks on the _Make Prediction_ button. The image uploaded as well as the prediction and report is displayed to the user when the prediction is complete
+
+![](docs/images/page_2_detector.png)
+
+![](docs/images/3_detector_2.png)
+
+- **Page 4: Hypothesis and Visualization**
+  On this page, you will find the project hypothesis and its validation methodology explained throughout the project.
+  ![](docs/images/4_hypothesis.png)
+
+- **Page 5: ML Performance Metric**
+  This page presents technical details regarding the model and data used. It includes information such as:
+- The distribution of labels in the training, validation, and test datasets
+- Accuracy and loss charts of the training model
+- Overall performance metrics on the test datasets.
+
+![](docs/images/5_metrics.png)
+
+---
 
 ## Codeanywhere Template Instructions
 
