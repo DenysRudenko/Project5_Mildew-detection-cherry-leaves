@@ -32,6 +32,35 @@ To address this issue and save time, the IT team has proposed implementing a mac
 | -------------------------------------------------- | ------------------------------------------------- |
 | <img src="docs/images/healthy.jpg" height='180px'> | <img src="docs/images/mildew.jpg" height='180px'> |
 
+## Hypothesis and how to validate?
+
+- Tree leaves affected by powdery mildew exhibit visible white streaks on their surface.
+  - Traditional data analysis methods will be employed to carry out a research study aimed at visually distinguishing between a healthy cherry leaf and one that is infected with powdery mildew.
+
+## Rationale to map the business requirements to the Data Visualizations and ML tasks
+
+- **Business Requirement 1**: Data Visualization
+  In order to visually differentiate healthy and mildew-infested cherry leaves:
+
+  - I desire to showcase images representing the average and variability of healthy cherry leaves and cherry leaves affected by powdery mildew, as a client.
+  - As a client, my goal is to exhibit the disparities between a typical, healthy cherry leaf and a cherry leaf afflicted with powdery mildew.
+  - In my capacity as a client, I aim to exhibit a collection of images showcasing both a healthy cherry leaf and a leaf affected by mildew.
+
+- **Business Requirement 2**: Classification
+  - As a client, my objective is to accurately determine whether a given cherry leaf is in a healthy state or affected by powdery mildew, ensuring that I avoid supplying the market with a compromised quality product.
+  - As a client, I desire to create a binary classifier and produce comprehensive reports.
+
+## ML Business Case
+
+- As a client, my objective is to obtain a machine learning model that can accurately predict whether a cherry leaf tree is in a healthy condition or affected by powdery mildew.
+- The desired result is to offer Farmy & Foods an efficient and dependable method for detecting mildew, which can be easily scaled across numerous farms throughout the country.
+- The model success metric are:
+  - A research project demonstrating methods to visually distinguish between a healthy cherry leaf and one that is affected by powdery mildew.
+  - The ability to accurately determine whether a cherry leaf is in a healthy state or affected by powdery mildew.The capability to predict if a cherry leaf is healthy or contains powdery mildew.
+  - The model accuracy on test data is 0.9988
+
+---
+
 ## Codeanywhere Template Instructions
 
 Welcome,
