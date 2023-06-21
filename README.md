@@ -61,6 +61,54 @@ To address this issue and save time, the IT team has proposed implementing a mac
 
 ---
 
+## Data Understanding
+
+The provided dataset consists of labeled images that are organized into two separate folders, representing the respective image labels. For instance, the healthy leaf images are stored in the "healthy" directory, while the mildew-infected leaves are located in the "powder_mildew" directory.
+
+The classification dataset contains a total of 4208 records, with an equal number of instances for each class. Specifically, there are 2104 samples of healthy leaves and 2104 samples of infected leaves, ensuring a balanced dataset.
+
+## Data Preparation
+
+Minimal data cleaning was necessary as the folders were scanned and any non-image files were removed. To ensure effective model training and prevent overfitting, the dataset was divided into three sets: train, test, and validation. The dataset was split with a ratio of 0.7 for the training set, 0.2 for the test set, and 0.1 for the validation set.
+
+Data augmentation techniques were applied to the training dataset using ImageDataGenerator. This process involved generating additional training images by combining various operations, such as random rotation, shifts, shearing, zooming, and flipping, within the computer's temporary memory (RAM). ImageDataGenerator was also utilized to rescale the test and validation datasets.
+
+## Modeling
+
+The training dataset was employed to train the sequential model, which was further validated using the validation dataset.
+
+Subsequently, the trained model was utilized to make predictions on the unseen test dataset, and the accuracy performance metric was computed to evaluate its performance.
+
+## Evaluation
+
+The model achieved an accuracy of over 97% on the test dataset, meeting the desired percentage accuracy. To further assess its performance, two leaves (one healthy and one with mildew, as demonstrated in the provided sample data) that were not included in the dataset were uploaded, and the model accurately predicted their respective conditions.
+
+[Mildew Leaf](docs/images/detector_2.png)
+
+[Healthy Leaf](docs/images/detector_3.png)
+
+---
+
+## Dashboard Design (Streamlit App User Interface)
+
+### Dashboard Wireframe
+
+Dashboard wireframe was created using wireframeCC. The wireframe is in pdf format and can be viewed [here](docs/project_wireframe.pdf)
+
+### Page 1: Quick Project Summary
+
+- A project summary page, showing the project dataset summary and the client's requirements.
+- Quick project summary
+
+  - General Information
+  - Project Dataset
+
+    - The dataset comprises more than four thousand images captured from the client's crop fields. These images depict cherry leaves in two conditions: healthy and affected by powdery mildew, which is a fungal disease that can impact various plants. The cherry plantation crop holds significant value in the client's product portfolio, and ensuring the market receives products of uncompromised quality is a top priority for the company.
+
+  - Business requirements
+    - The client seeks to perform a research study aimed at visually distinguishing between a healthy cherry leaf and a cherry leaf affected by powdery mildew.
+    - The client has a keen interest in predicting whether a cherry tree is in a healthy state or affected by powdery mildew.
+
 ## Codeanywhere Template Instructions
 
 Welcome,
