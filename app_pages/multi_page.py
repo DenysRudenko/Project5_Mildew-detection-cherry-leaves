@@ -10,6 +10,7 @@ class MultiPage:
             page_title=self.app_name,
             page_icon="🍃")
     
+    
     def add_page(self, title, func) -> None: 
         self.pages.append({"title": title, "function": func })
 
