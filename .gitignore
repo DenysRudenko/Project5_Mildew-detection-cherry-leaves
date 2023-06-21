@@ -9,3 +9,5 @@ node_modules/
 cloudinary_python.txt
 kaggle.json
 envs/
+inputs/datasets/cherry-leaves/test
+inputs/datasets/cherry-leaves/train
