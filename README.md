@@ -14,6 +14,24 @@ Farmy & Foods is currently facing a challenge with their cherry plantations, as 
 
 To address this issue and save time, the IT team has proposed implementing a machine learning (ML) system that can instantly detect the presence of powdery mildew using images of cherry leaves. If successful, this ML solution could be extended to detect pests in other crops as well, replicating the project across the company. The dataset for training the ML model consists of cherry leaf images provided by Farmy & Foods, captured from their own crops.
 
+### **Project Goal:**
+
+- 1 - The client wishes to perform a research project aimed at visually distinguishing between a healthy cherry leaf and one that is affected by powdery mildew.
+- 2 - The client seeks to make predictions regarding the health status of a cherry leaf, specifically whether it is healthy or affected by powdery mildew.
+
+## Dataset Content
+
+- The dataset used for this project was obtained from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then developed a fictional user scenario where predictive analytics can be applied to a practical workplace project.
+- The dataset comprises over 4,000 images captured from the client's crop fields. These images depict both healthy cherry leaves and cherry leaves that have been infected with powdery mildew, a fungal disease that affects various plant species. The cherry plantation crop is considered one of the company's top products, and they are concerned about maintaining high-quality standards when supplying the market.
+
+### Sample leaves
+
+---
+
+| healthy                                            | podwery mildew leaf                               |
+| -------------------------------------------------- | ------------------------------------------------- |
+| <img src="docs/images/healthy.jpg" height='180px'> | <img src="docs/images/mildew.jpg" height='180px'> |
+
 ## Codeanywhere Template Instructions
 
 Welcome,
