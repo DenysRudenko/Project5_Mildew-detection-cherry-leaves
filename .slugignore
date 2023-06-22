@@ -1,0 +1,8 @@
+inputs/datasets/cherry-leaves/test/
+inputs/datasets/cherry-leaves/train/
+readme_images/*
+README.md
+.gitpod.dockerfile
+.gitpod.yml
+app_pages/__pycache__/*
+*zip
