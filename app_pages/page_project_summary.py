@@ -47,5 +47,5 @@ def page_summary_body():
         f"[Project README file](https://github.com/DenysRudenko/Project5_Mildew-detection-cherry-leaves/blob/main/README.md).")
     
     st.write(
-        f"* To download the example Cherry-Leaves dataset, please follow the link"
+        f"* To download the example Cherry-Leaves dataset, please follow the link "
         f"[Cherry-Leaves Dataset](https://www.kaggle.com/codeinstitute/cherry-leaves).")
