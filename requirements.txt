@@ -5,6 +5,6 @@ seaborn
 plotly
 streamlit
 scikit-learn
-tensorflow-cpu
+tensorflow-cpu==2.6.0
 keras
 protobuf
